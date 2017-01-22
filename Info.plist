@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Jordan Guymon</string>
+	<key>Builder Version</key>
+	<string>10602.2.14.0.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>Garytations</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jogusd.garytations</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>jquery-1.11.1.min.js</string>
+				<string>typeahead.bundle.js</string>
+				<string>background.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>styles.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>https://act.ucsd.edu/employeeMyTimeEntry/calendar-time-entry.htm</string>
+			<string>http://act.ucsd.edu/employeeMyTimeEntry/calendar-time-entry.htm</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Makes it easy to type in the MyTime annotations Gary wants</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>act.ucsd.edu</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

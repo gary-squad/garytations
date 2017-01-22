@@ -1,4 +1,5 @@
 //All the annotations Gary wants
+console.log('wtf');
 var annotations = [
     'CSE 12/15L/110 Tutor Staff Meeting',
 
