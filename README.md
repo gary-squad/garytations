@@ -1,4 +1,4 @@
-# garytations
+# Garytations
 Makes it easy to type in the MyTime annotations Gary wants
 
 This extension adds an additional text box underneath the comment box when entering your hours on mytime. 
