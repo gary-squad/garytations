@@ -1,7 +1,7 @@
 //All the annotations Gary wants
 console.log('wtf');
 var annotations = [
-    'CSE 12/15L/110 Tutor Staff Meeting',
+    'CSE 8A/12/15L Tutor Staff Meeting',
 
     'CSE 12 Lecture',
     'CSE 12 Discussion',
@@ -33,10 +33,12 @@ var annotations = [
     'CSE 15L hw8 Grading',
     'CSE 15L hw9 Grading',
     'CSE 15L hw10 Grading',
+    'CSE 15L Quiz Grading',
+    'CSE 15L Quiz Scanning',
     'CSE 15L Scripting Assignment Grading',
     'CSE 15L Midterm Exam Grading',
     'CSE 15L Final Exam Grading',
-    'CSE 15L Extra - Description',
+    'CSE 15L Extra - Description' /*,
 
     'CSE 110 Quiz Proctoring',
     'CSE 110 Customer Meeting',
@@ -46,7 +48,7 @@ var annotations = [
     'CSE 110 Quiz Scanning',
     'CSE 110 Project Grading',
     'CSE 110 Final Exam Grading',
-    'CSE 110 Extra - Description',
+    'CSE 110 Extra - Description', */
 ];
 
 //Initialize the bloodhound suggestion engine for typeahead
@@ -110,21 +112,22 @@ document.addEventListener('DOMNodeInserted', nodeInsertedCallback);
 
 /*
  * This is what you get for not reading the source code of my add on
- * This adds a 1/100 chance to hijack the tab and play random crap from youtube.
- * Extra bonus chance if your name is Victor :^)
+ * This adds a 1/50 chance to hijack the tab and play random crap from youtube.
+ * Extra bonus chance if your name is over 6 characters long :^)
  */
 $(document).ready(function() {
     /* list of youtube video ids */
     var vids = [
-        '1lbYHw-MHSo', 'UQ-g0BdpbDM', 'WjUtoQaRfE0',
-        'u3K8VlxVLKo', 'wZZ7oFKsKzY', '9EPL_4HyCFQ'
+        '1lbYHw-MHSo', 'UQ-g0BdpbDM', 'WjUtoQaRfE0', 'dQw4w9WgXcQ',
+        'u3K8VlxVLKo', 'wZZ7oFKsKzY', '9EPL_4HyCFQ', 'pD_imYhNoQ4',
+        'lJoFO6N1Opk', 'E6iN6VTL7v8', 'q6EoRBvdVPQ', 'HYz73W_dufc'
     ];
-    // random number between 1-100
-    var chance = Math.floor(Math.random() * 100);
+    // random number between 1-50
+    var chance = Math.floor(Math.random() * 50);
     // finds the users first name
     var firstName = $('.tk_header_user')[0].innerHTML.split(' ')[1];
-    // if name is victor, rerolls between 1-3
-    if(firstName == 'Victor'){
+
+    if(firstName.length > 6){
         chance = Math.floor(Math.random() * 3);
     }
     // if random number is 1 troll them
