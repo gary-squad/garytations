@@ -1,8 +1,9 @@
 //All the annotations Gary wants
 console.log('wtf');
 var annotations = [
-    'CSE 8A/12/15L Tutor Staff Meeting',
+    //'CSE 8A/12/15L Tutor Staff Meeting',
 
+    'CSE 12 Tutor Staff Meeting',
     'CSE 12 Lecture',
     'CSE 12 Discussion',
     'CSE 12 Tutoring',
@@ -20,6 +21,8 @@ var annotations = [
     'CSE 12 Final Exam Grading',
     'CSE 12 Extra - Description',
 
+
+    'CSE 15L Tutor Staff Meeting',
     'CSE 15L Lecture',
     'CSE 15L Lab',
     'CSE 15L Lab Vetting',
