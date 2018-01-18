@@ -22,7 +22,7 @@ var annotations = [
     'CSE 12 Extra - Description',
 
     'CSE 15L Tutor Staff Meeting',
-    'CSE15L Tutoring',
+    'CSE 15L Tutoring',
     'CSE 15L Lecture',
     'CSE 15L Lab',
     'CSE 15L Lab Vetting',
