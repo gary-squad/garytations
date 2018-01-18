@@ -3,7 +3,7 @@
 
   "name": "Garytations",
   "short_name": "Garytations",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Makes it easy to type in the annotations Gary wants",
   "icons": {
       "16": "gg16.png",
