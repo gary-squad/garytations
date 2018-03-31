@@ -123,10 +123,11 @@ $(document).ready(function() {
     var vids = [
         '1lbYHw-MHSo', 'UQ-g0BdpbDM', 'WjUtoQaRfE0', 'dQw4w9WgXcQ',
         'u3K8VlxVLKo', 'wZZ7oFKsKzY', '9EPL_4HyCFQ', 'pD_imYhNoQ4',
-        'lJoFO6N1Opk', 'E6iN6VTL7v8', 'q6EoRBvdVPQ', 'HYz73W_dufc'
+        'lJoFO6N1Opk', 'E6iN6VTL7v8', 'q6EoRBvdVPQ', 'HYz73W_dufc',
+        'dQw4w9WgXcQ', '9uaL2yFtoVo', 'm5_6mhsxJ6Y', 'Z2caj3rwRnY'
     ];
-    // random number between 1-50
-    var chance = Math.floor(Math.random() * 50);
+    // random number between 1-30
+    var chance = Math.floor(Math.random() * 30);
     // finds the users first name
     var firstName = $('.tk_header_user')[0].innerHTML.split(' ')[1];
 
