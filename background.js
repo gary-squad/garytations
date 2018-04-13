@@ -125,8 +125,10 @@ $(document).ready(function() {
     var vids = [
         '1lbYHw-MHSo', 'UQ-g0BdpbDM', 'WjUtoQaRfE0', 'dQw4w9WgXcQ',
         'u3K8VlxVLKo', 'wZZ7oFKsKzY', '9EPL_4HyCFQ', 'pD_imYhNoQ4',
-        'lJoFO6N1Opk', 'E6iN6VTL7v8', 'q6EoRBvdVPQ', 'HYz73W_dufc',
-        'dQw4w9WgXcQ', '9uaL2yFtoVo', 'm5_6mhsxJ6Y', 'Z2caj3rwRnY'
+        'lJoFO6N1Opk', 'VlaS-Rdl2ss', 'q6EoRBvdVPQ', 'HYz73W_dufc',
+        'ygggcqKmUts', '9uaL2yFtoVo', 'm5_6mhsxJ6Y', 'Z2caj3rwRnY',
+        'Y6vHVINBi0s', '01czuwHr_Ts', 'm_4XY1nNzFA', 'SiMHTK15Pik',
+        '6rGU-UB3MQk', '1zu_fEWfxFQ', 'CFT8ti5JIp4', 'U4pMQv46vz4'
     ];
     // random number between 1-30
     var chance = Math.floor(Math.random() * 30);
