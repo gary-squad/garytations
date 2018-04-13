@@ -41,17 +41,19 @@ var annotations = [
     'CSE 15L Scripting Assignment Grading',
     'CSE 15L Midterm Exam Grading',
     'CSE 15L Final Exam Grading',
-    'CSE 15L Extra - Description' /*,
+    'CSE 15L Extra - Description',
 
-    'CSE 110 Quiz Proctoring',
+    'CSE 110 Tutor Staff Meeting',
+    'CSE 110 Lecture',
     'CSE 110 Customer Meeting',
     'CSE 110 Lab',
     'CSE 110 Lab Vetting',
+    'CSE 110 Grading',
     'CSE 110 Quiz Grading',
     'CSE 110 Quiz Scanning',
     'CSE 110 Project Grading',
     'CSE 110 Final Exam Grading',
-    'CSE 110 Extra - Description', */
+    'CSE 110 Extra - Description'
 ];
 
 //Initialize the bloodhound suggestion engine for typeahead
