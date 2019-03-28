@@ -1,26 +1,25 @@
 //All the annotations Gary wants
-// Test
 console.log('wtf');
 var annotations = [
     //'CSE 8A/12/15L Tutor Staff Meeting',
 
-    'CSE 8A Tutor Staff Meeting',
-    'CSE 8A Lecture/Peer Instruction',
-    'CSE 8A Discussion',
-    'CSE 8A Lab',
-    'CSE 8A Tutoring',
-    'CSE 8A pa0 Grading',
-    'CSE 8A pa1 Grading',
-    'CSE 8A pa2 Grading',
-    'CSE 8A pa3 Grading',
-    'CSE 8A pa4 Grading',
-    'CSE 8A pa5 Grading',
-    'CSE 8A pa6 Grading',
-    'CSE 8A pa7 Grading',
-    'CSE 8A pa8 Grading',
-    'CSE 8A Midterm Exam Grading',
-    'CSE 8A Final Exam Grading',
-    'CSE 8A Extra - Description',
+    // 'CSE 8A Tutor Staff Meeting',
+    // 'CSE 8A Lecture/Peer Instruction',
+    // 'CSE 8A Discussion',
+    // 'CSE 8A Lab',
+    // 'CSE 8A Tutoring',
+    // 'CSE 8A pa0 Grading',
+    // 'CSE 8A pa1 Grading',
+    // 'CSE 8A pa2 Grading',
+    // 'CSE 8A pa3 Grading',
+    // 'CSE 8A pa4 Grading',
+    // 'CSE 8A pa5 Grading',
+    // 'CSE 8A pa6 Grading',
+    // 'CSE 8A pa7 Grading',
+    // 'CSE 8A pa8 Grading',
+    // 'CSE 8A Midterm Exam Grading',
+    // 'CSE 8A Final Exam Grading',
+    // 'CSE 8A Extra - Description',
 
     'CSE 12 Tutor Staff Meeting',
     'CSE 12 Lecture',
@@ -62,17 +61,17 @@ var annotations = [
     'CSE 15L Final Exam Grading',
     'CSE 15L Extra - Description',
 
-    // 'CSE 110 Tutor Staff Meeting',
-    // 'CSE 110 Lecture',
-    // 'CSE 110 Customer Meeting',
-    // 'CSE 110 Lab',
-    // 'CSE 110 Lab Vetting',
-    // 'CSE 110 Grading',
-    // 'CSE 110 Quiz Grading',
-    // 'CSE 110 Quiz Scanning',
-    // 'CSE 110 Project Grading',
-    // 'CSE 110 Final Exam Grading',
-    // 'CSE 110 Extra - Description'
+    'CSE 110 Tutor Staff Meeting',
+    'CSE 110 Lecture',
+    'CSE 110 Customer Meeting',
+    'CSE 110 Lab',
+    'CSE 110 Lab Vetting',
+    'CSE 110 Grading',
+    'CSE 110 Quiz Grading',
+    'CSE 110 Quiz Scanning',
+    'CSE 110 Project Grading',
+    'CSE 110 Final Exam Grading',
+    'CSE 110 Extra - Description'
 ];
 
 //Initialize the bloodhound suggestion engine for typeahead
