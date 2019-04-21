@@ -19,6 +19,8 @@ var annotations = [
     // 'CSE 8A pa8 Grading',
     // 'CSE 8A Midterm Exam Grading',
     // 'CSE 8A Final Exam Grading',
+    // 'CSE 8A Exam Preparation',
+    // 'CSE 8A Exam Proctoring',
     // 'CSE 8A Extra - Description',
 
     'CSE 12 Tutor Staff Meeting',
@@ -37,6 +39,8 @@ var annotations = [
     'CSE 12 Quiz Grading',
     'CSE 12 Quiz Scanning',
     'CSE 12 Final Exam Grading',
+    'CSE 12 Exam Preparation',
+    'CSE 12 Exam Proctoring',
     'CSE 12 Extra - Description',
 
     'CSE 15L Tutor Staff Meeting',
@@ -59,6 +63,8 @@ var annotations = [
     'CSE 15L Scripting Assignment Grading',
     'CSE 15L Midterm Exam Grading',
     'CSE 15L Final Exam Grading',
+    'CSE 15L Exam Preparation',
+    'CSE 15L Exam Proctoring',
     'CSE 15L Extra - Description',
 
     'CSE 110 Tutor Staff Meeting',
@@ -71,6 +77,8 @@ var annotations = [
     'CSE 110 Quiz Scanning',
     'CSE 110 Project Grading',
     'CSE 110 Final Exam Grading',
+    'CSE 110 Exam Preparation',
+    'CSE 110 Exam Proctoring',
     'CSE 110 Extra - Description'
 ];
 
