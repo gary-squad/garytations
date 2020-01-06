@@ -66,7 +66,7 @@ var annotations = [
     'CSE 15L Exam Preparation',
     'CSE 15L Exam Proctoring',
     'CSE 15L Extra - Description',
-
+/*
     'CSE 110 Tutor Staff Meeting',
     'CSE 110 Lecture',
     'CSE 110 Customer Meeting',
@@ -80,6 +80,7 @@ var annotations = [
     'CSE 110 Exam Preparation',
     'CSE 110 Exam Proctoring',
     'CSE 110 Extra - Description'
+    */
 ];
 
 //Initialize the bloodhound suggestion engine for typeahead
